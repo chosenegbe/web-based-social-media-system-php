@@ -1,0 +1,193 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.homePageBody{
+ -webkit-font-smoothing: antialiased;
+ 
+ font-size: 14px;	
+	
+}
+.bodyPostWrapper{
+	width: 50%;
+	height:auto;
+	margin-left: 18%;
+	margin-top:-1000px;
+	
+	}
+.postForm{
+	float: right;
+	/*width: 560px;*/
+	width: 99%;
+	height: 13%;
+	
+	padding: 5px;
+	
+	
+}
+#post{
+	
+	-webkit-box-shadow: 0 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	-moz-box-shadow: 0 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	box-shadow: 0 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	}
+.profilePosts{
+	
+	float: right;
+	/*width: 560px;*/
+	width: 99%;
+	height: auto;
+	background-color: #FFFFFF ;
+	padding: 5px;
+	border-radius: 1px;
+    
+	
+}
+ ul  {
+		list-style-type: none;
+		float: left;
+	}
+.postForm{
+    background-color: #FFFFFF;
+}
+ .post-insert{
+	 width: auto; 
+	 
+	 
+	}
+ .post-insert .post-insert-container{
+	
+	margin: 5px 10px 5px 10px;
+	width: auto;
+	height: auto;
+	min-height: 65px;
+	
+	}
+  .post-insert .post-insert-container .post-insert-text{
+	text-shadow: 0 2px 2px rgba(0,0,0,.0.3);
+	top: 0px;
+	left: 0px;
+	right: 10px;
+	bottom: 0px;
+	border: none;
+	width:99%;
+	height: 60px;
+	color: #555;	  
+	 }
+.post-insert .post-insert-container .post-insert-text{
+	border: 1px solid #c1c1c1 inset;
+	}
+.post-button-wrapper{
+	top: 90px;
+	right: 2%;
+	width: 60px;
+	line-height: 27px;
+	font-size: 14px;
+	color: #808080;
+	text-align:center;	
+	cursor:pointer;
+	
+}
+.submitMainPost{
+  background-color: #FFFF00;   
+}
+.post-button-wrapper:hover{
+
+	color: #eaeaea;
+	
+	}
+.post-insert-text{
+	resize:none;
+	
+	}
+
+
+	
+.leftSider{
+	width:17%;
+
+	margin-left: 1px;
+	height: 1000px;
+	text-align: justify;
+	
+	}
+ .rightSider{
+    height: auto;
+    width: 33%;
+    margin-left: 70%;
+    margin-top: -1%;
+    position: fixed;
+ } 
+ #userPersonaldetail{
+    width: 80%;
+    height: auto;
+    
+   	-webkit-box-shadow: 0 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	-moz-box-shadow: 0 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	box-shadow: 0 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+    border-radius: 3px;
+    
+ }
+ .info1{
+    color: #FFFFFF ;
+	font-style:italic;    
+ }  
+ 
+ 
+ 
+.profileImage{
+	width: 80%;
+	height: 200px;
+	
+	margin-top:5px;
+	padding-top:5px;
+	margin: 0px auto;
+	
+	border-radius: 3px;
+	}
+.userReflections{
+	color: #AA7FFF;
+	background-color: #808080;
+	width: 98%;
+	height: 60px;
+	font-weight: bold;
+	margin: 0px auto;
+	}
+.userFriendList{
+	width: 98%;
+	margin: 0px auto;
+	
+	}
+.newsFeedPostOnProfile{
+	
+    border: 2px solid #EEE5DE ;
+    height: auto;
+    width: 98%;
+    background-color: #FFF5EE  ;
+    border-radius: 4px ;
+    margin-bottom: 4px;
+    border: 2px solid #c1c1c1 inset;
+	}
+ .posted_by{
+	margin-left: 10px;
+	 
+	 }
+ .menu:hover{
+	 cursor:pointer;
+	 }
+  .dropMainDelete{
+	  display:none;
+	  position: absolute;
+	  color:#2A1FFF;
+	  }
+.dropMainDelete li{
+	  float:none;
+	  margin-right: 5px;
+	  }
+.dropMainDelete li:hover{
+		color:#FFFFFF;
+		display:list-item;
+		text-decoration:underline;
+		}

@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+#accountSettingPage{
+	
+	
+}
+textarea{
+	resize:none;
+	}
+body{
+	
+
+	}
+#wrapSettings{
+   width: 90%;
+    background-color: #FFF5EE  ;
+	margin: 0px auto;
+   border: 2px solid #c1c1c1 inset;
+   border: 3px;
+   -webkit-box-shadow: 2px 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	-moz-box-shadow: 2px 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	box-shadow: 2px 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+} 
+.infoUser{
+	font-size: 15px;
+	line-height: 1.6em;
+	color: #87CEEB;
+}
+.info1{
+	color: #20B2AA ;
+	font-style:italic;
+}
+ #editInfo{
+    text-align: center;
+    
+ }
+ 
+ hr{
+    border:  2px solid #FFF;
+ }
+
+#customPassword{
+	font-family: Arial, Sans-serif, "Times New Roman", Times, serif;
+	font-size: 12px;
+	
+	}
+#customPassword label{
+	display:block;
+	color: #797979;
+	
+	}
+#customForm input{
+	width: 220px;
+	padding: 6px;
+	color: #949494;
+	font-family: Arial;
+	font-size: 12px;
+	border: 1px solid #cecece;
+	
+	}
+
+#customPassword input.error{
+	background-color: #f8dbdb;
+	border-color: #e77776;
+}
+#customPassword input.valid{
+	background-color: #99ff99;
+	border-color: green;
+}
+#customPassword div{
+	margin-bottom: 10px;
+	margin-left: 2px;
+}
+#customPassword div span{
+	margin-left: 10px;
+	color: #b1b1b1;
+	font-size: 12px;
+	font-style: italic;
+}
+#customPassword div span.error{
+	color: #F00;
+}
+#customPassword div span.valid{
+	color: green;
+}
+#customPassword #sendDatatoRegisterUser{
+	background-color: #6f9ff1;
+	color: #fff;
+	font-weight: 700;
+	font-style: normal;
+	cursor: pointer;
+}
+#customPassword #sendDatatoRegisterUser:hover{
+	background-color: #79a7f1;
+}
+.customPassword {
+	margin: 0px auto;
+	width: 60%;
+	
+
+
+
+	}
+#customPassword fieldset{
+		border: 3px solid #808080;
+		border-radius: 10px;
+		
+	   box-shadow:1px 0px 10px #999;
+       -moz-box-shadow:1px 0px 10px #999 ;
+	   -webkit-box-shadow:1px 0px 10px #999;
+	}
+#customPassword legend{
+		font-size: 14px;
+		font-weight: bold;
+		color: blue;
+	}
+#customPassword input[type="text"]{
+		border-radius: 3px;
+	}
+
+@media only screen and (min-width:150px) and (max-width: 600px){
+
+}

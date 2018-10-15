@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
+	margin:0;
+	padding:0;
+	font-size : 100%;
+	font-weight: normal;
+	}
+h1, h2, h3, h4, h5, h6{
+	font-weight: bold;
+}
+h1{ font-size: 24px;}
+h2{ font-size: 22px;}
+h3{ font-size: 20px;}
+h4{ font-size: 18px;}
+h5{ font-size: 16px;}
+h6{ font-size: 14px;}
+
+table{ border-collapse: collapse;}
+img , fieldset{ border: 0;}
+ol{list-style: decimal;}
+ul{list-style: square;}
+
+
+
+/*chat box*/
+
+.chatBox{
+	border: 1px solid #000;
+	width: 300px;
+	height: 450px;
+	background-color: #99FF66;
+	position:fixed;
+	bottom: 0px;
+	border-radius: 5px 5px 0px 0px;
+	
+	}
+.chatBox .user{
+	text-align: right;
+	padding: 5px;
+	height: 40px;
+	background-color: #d35400;
+	border-radius: 5px 5px 0px 0px;
+	}
+/* message log area*/
+
+.chatBox .main{
+	background-color: #FFFFFF;
+	height: 340px;
+	padding: 5px;
+	overflow: auto;
+	width: 295px;
+	word-wrap: break-word;
+	}
+	
+/*new message area*/
+.chatBox .messageBox{
+	padding: 7px 5px 5px 5px;
+	border-top: 2px solid #999;
+	border-radius: 5px 5px 0px 0px;
+	
+	}
+#newMessageContent{
+	
+	height: 50px;
+	width: 100%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border:transparent;
+	border-top:1px solid #bdc3c7;
+	padding:3px;
+	}
+/*prevent the text area from being resize*/
+textarea[name=newMessageContent] {
+    resize: none;
+}
+
+/*Background Image*/
+.backgroundImage{
+	background-image:url("backgroundImage.jpg");
+}
+ body{
+		overflow:hidden; 
+		 }
+main{
+	background-color: #FFFBF0;
+			
+	}
+
+#displayName ul li{
+		list-style-type:none;
+		margin-left: 3%;
+		margin-top: 1%;
+		padding: 5%;
+		width: 100%;
+		display:block;
+		}
+#displayName ul{
+		width: 100%;
+		
+			}
+	#displayName ul li a{
+		color: #000000;
+		padding: 5%;
+		font-size: 17px;
+		text-decoration:none;
+		
+		font-family: "Times New Roman", Times, serif;
+
+		
+		}
+#displayName ul li a:active{
+		color: #FFFFFF;
+		background-color:#79CDCD;	
+	}
+td #displayName ul li a:hover{
+		color: #FFFFFF;
+		background-color:#79CDCD;
+		width: 25%;
+		}
+
+
+	
+
+	
+	

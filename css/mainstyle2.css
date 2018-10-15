@@ -1,0 +1,189 @@
+
+<!-- use in version of HTML5 prior to IE version9 -->
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+html{
+		height: 100%;
+}
+.wrapper{
+		/*margin: 0 auto;*/
+        /*width: 60%;*/
+		/*width: 800px;*/
+		width: 70%;
+		margin-left: 0%;
+        height: 1000px;
+		padding-top: 3px;
+      	border-left: 1px solid #DCE5EE;
+	   	border-right: 1px solid #DCE5EE;
+		background: #bdc3c7;
+		
+		padding-right: 10px;
+		padding-left: 10px; 
+		 
+	
+}
+#menuWrapper{
+        margin-left: auto;
+        margin-right: auto;
+        width: 840px;
+		height: auto;
+}
+.profileLeftSideContent{
+	/*width: 194px;*/
+	width: 22%;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 0px;
+	height: 200px;
+	text-align:: justify;
+	postion:fixed;
+	
+	
+	
+}
+.postForm{
+	margin-right: 12%;
+	float: right;
+	/*width: 560px;*/
+	width: 65%;
+	height: 130px;
+	background-color: #F3F6F9;
+	padding: 5px;
+	
+	
+}
+#post{
+	
+	-webkit-box-shadow: 0 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	-moz-box-shadow: 0 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	box-shadow: 0 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	}
+
+.profilePosts{
+	margin-right: 12%;
+	float: right;
+	/*width: 560px;*/
+	width: 65%;
+	height: auto;
+	background-color: #DCE5EE;
+	padding: 5px;
+	
+}
+.textHeader{
+	background-color: #F3F6F9;
+	width: 22%;
+	height: 20px;
+	right:0px;
+	
+	
+	
+}
+
+#imageReshape{
+	
+	height: 250px;
+	width: 22%;
+	
+	
+	
+}
+
+
+ 
+ .member{
+    margin-left: 20px;
+    padding: 5px;
+    border: 1px solid #00508D; 
+   	margin-bottom: 3px;
+	margin-top: 3px;
+	border-radius: 2px;
+	box-shadow: 2px 2px 2px rgba(255,255,255,0.1), 0 1px 3px rgba(0,0,0,0.2) inset;
+    border-left: none;
+    
+ }
+
+ hr{
+    border:  2px solid #FFF;
+ }
+
+
+
+ 
+ #chatRoom{
+	width: 60%;
+    margin: 0px auto;
+    font-size: 14px;
+    
+ }
+
+.newsFeed{
+	/*margin: 0px auto;*/
+	
+	}
+.newsFeed h2{
+	background-color: #F3F6F9;
+	border: 1px solid #DCE5EE;
+	width: 65%;
+	font-size: 15px;
+margin-left: 0.15%;
+	text-align:center;
+	border-radius: 5px;
+	
+	}
+ 
+ .newsFeedPost{
+	 width: 65%;
+	background-color: #FFFFFF;
+	border: 1px solid #F3F6F9;
+	margin-left: 0.15%;
+	}
+	
+ .newsFeedPost:hover{
+	/*width: 71%; */
+	/*background-color: #F3F6F9;*/
+	border: 1px solid #F3F6F9;
+	background: linear-gradient(to top, #EEE9E9 0%, #CDC9C9 50%, #a7b1c5 100%);
+	background: -webkit-linear-gradient(bottom, #EEE9E9 0%, #CDC9C9 50%, #EEE5DE  100%);
+	background: -moz-linear-gradient(bottom, #EEE9E9 0%, #CDC9C9 50%, #EEE5DE 100%);
+	}
+.newsFeedPostOnProfile{
+	background-color: #ecf0f1;
+	border: 1px solid #F3F6F9;
+	margin: 0px auto;
+	border-radius: 5px;
+	padding: 4px;
+	
+	}
+.newsFeedPostOnProfile:hover{ 
+	/*background-color: #F3F6F9;*/
+	border: 1px solid #F3F6F9;
+	background: linear-gradient(to top, #EEE9E9 0%, #CDC9C9 50%, #a7b1c5 100%);
+	background: -webkit-linear-gradient(bottom, #EEE9E9 0%, #CDC9C9 50%, #EEE5DE  100%);
+	background: -moz-linear-gradient(bottom, #EEE9E9 0%, #CDC9C9 50%, #EEE5DE 100%);
+	
+	}
+
+
+	
+.newsFeedPostOptions{
+	width: 100%;
+	background-color: #F2F2F2;
+	border: 1px solid #CCCCCC;
+	border: 0px;
+	padding: 5px 5px 5px 5px -10px;
+	margin-bottom: 4px;
+	
+}
+
+.newsFeedPostOptionsProfile:hover{
+	color:#e74c3c;
+	}
+
+
+#click-edit{
+	cursor:pointer;
+	}

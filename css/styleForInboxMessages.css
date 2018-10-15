@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	height: 100%;
+	/*background: #1abc9c;*/
+	background-color: #FFFFFF  ;
+	}
+table,#pages{
+	margin: 2% auto 2% auto;
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	background: #f1f1f1;
+	}
+
+table tr{
+	width: 100%;
+	}
+table tr th {
+	/*background: #00688B ;*/
+	background: #FFE1FF;
+	color: #ffffff;	
+	font-size: 15px;
+	font-family:"Times New Roman", Times, serif;
+	}
+table td{
+	background: #ecf0f1;
+	}
+td.unread{
+	background-color: #FFFFFF;
+	color: #000;
+	font-weight:bolder;
+	}
+td.read{
+        background-color: #F7F7F7;
+}
+table tr th, table tr td{
+	padding: 10px;
+	color: #999;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	text-align:center;
+
+	border-left: 1px solid #ffffff;
+	border-right: 1px solid #ffffff;
+	}
+
+ #inboxMsg{
+	
+	}
+#sentMsg{
+
+	}
+table tr td{
+	border-bottom: 2px solid #ffffff;
+	}
+table tr td  a{
+	color: #999;
+	text-decoration:none;
+	}
+#pages{
+	margin: 1px auto 0px auto;
+	background: transparent;
+	}
+#pages a{
+	display: inline-block;
+	margin: 0 10px 0 0;
+	padding: 5px;
+	background: #3e3e3e;
+	color: #ffffff;
+	border-radius: 3px;
+	font-family:arial;
+	text-decoration:none;
+	font-size: 12px;
+	}
+.active{
+	background: #ccc !important;
+	color: #666;
+	}
+#msg{
+	margin: 0px auto;
+	width: 90%;
+	padding: 20px;
+	
+	}
+#msg table tr th{
+	background: #00688B;
+	color: #ffffff;	
+	font-size: 15px;
+	font-family:"Times New Roman", Times, serif;
+	
+	}
+#msg table tr td{
+	background: #ecf0f1;
+	color: #ffffff;
+	}
+#msg pre{
+	margin: 0px 0px 20px 0px;
+	background: #f1f1f1;
+	margin-left: 5%;
+	width: 90%; 
+	height: 300px;
+	
+	word-wrap:break-word;
+	/*white-space: nowrap;*/
+	padding: 2% 2% 2% 2%;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 17px;
+	line-height:1.8em;
+	/*text-overflow: ellipsis;*/
+	overflow:auto;
+	overflow-x: hidden;
+	max-width: 100%;
+	padding-right:3%;
+	border: 1px solid #FFFFFF;
+	}
+.remove{
+	text-decoration: none;
+	padding: 6px 10px;
+	color: #ffffff;
+	background: #F00;
+	font-family: arial;
+	font-size: 12px;
+	border-radius: 3px;
+	}
+.back{
+	text-decoration: none;
+	padding: 6px 10px;
+	color: #ffffff;
+	background: #09f;
+	}
+.reply{
+	text-decoration: none;
+	padding: 6px 10px;
+	color: #ffffff;
+	background: #09f;	
+	}
+#tableHeader{
+	width: 30%;
+	height: 20px;
+	border: 0px;
+	
+	margin-left: 5%;
+}
+#tableHeaderRow{
+ 	width: 100%;
+	color: #CD8500 ;
+
+}
+#tableTH{
+        background: #FFFFFF ;
+	padding: 0px;
+	border: 0px;
+	colspan: 0px
+       color: #CD8500 ;
+	
+}
